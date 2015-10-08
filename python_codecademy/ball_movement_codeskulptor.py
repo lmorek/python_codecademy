@@ -7,7 +7,7 @@ HEIGHT = 400
 BALL_RADIUS = 20
 
 ball_pos = [WIDTH / 2, HEIGHT / 2]
-vel = [-40.0 / 30.0,  10.0 / 30.0]
+vel = [-40.0 / 30.0,  10.0 / 40.0]
 
 # define event handlers
 def draw(canvas):
