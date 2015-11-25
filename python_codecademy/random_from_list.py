@@ -4,7 +4,7 @@ import random
 from random import randrange
 
 LST = ["1","2","3","4","5"]
-
+print(LST)
 
 
 nowa_lista=""
@@ -17,7 +17,7 @@ while LST !=[]:
         nowa_lista+=(word+" ")
         LST.remove(word)
     elif word in nowa_lista:
-        print("to jzu było")
+        print("to juz było")
 
 print(nowa_lista + " ")
 
